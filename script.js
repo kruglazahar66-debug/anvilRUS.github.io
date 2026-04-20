@@ -9,7 +9,7 @@ function initData() {
     let users = localStorage.getItem(STORAGE_USERS);
     if (!users) {
         const defaultUsers = [
-            { id: '1', login: 'admin', password: 'admin123', role: 'admin', name: 'Алексей (Админ)' },
+            { id: '1', login: 'admin', password: 'admin123', role: 'admin', name: 'Захар (Админ)' },
             { id: '2', login: 'user', password: 'user123', role: 'user', name: 'Дмитрий' }
         ];
         localStorage.setItem(STORAGE_USERS, JSON.stringify(defaultUsers));
